@@ -166,7 +166,7 @@ st.sidebar.markdown(f"""
 <h2 style='color:lightblue;'>
     <img src="data:image/png;base64,{img1}" width="40" 
     style="vertical-align: middle; margin-right:10px;">
-    File Compressor
+    Bruh Tool
 </h2>
 """, unsafe_allow_html=True)
 st.sidebar.markdown("---")
