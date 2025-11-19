@@ -1,4 +1,3 @@
-
 import heapq
 import json
 import os
@@ -133,10 +132,10 @@ import io
 import zipfile
 import json
 
-st.set_page_config(page_title="File Compressor", page_icon="📦", layout="wide")
+st.set_page_config(page_title="File Compressor", page_icon="<img src='icon_1.png' width='60'>", layout="wide")
 
 
-st.sidebar.markdown("<h2 style='color:lightblue;'>📦 File Compressor</h2>", unsafe_allow_html=True)
+st.sidebar.markdown("<h2 style='color:lightblue;'><img src='icon_2.png' width='60'> File Compressor</h2>", unsafe_allow_html=True)
 st.sidebar.markdown("---")
 st.sidebar.info("Welcome! This tool allows you to compress text files or decompress previously compressed files.", icon="ℹ️")
 
@@ -144,7 +143,8 @@ st.sidebar.info("Welcome! This tool allows you to compress text files or decompr
 st.sidebar.markdown("1️⃣ Choose Compress or Decompress  <br>""2️⃣ Upload your file  <br>""3️⃣ Download the result  <br>""4️⃣ View file stats below", unsafe_allow_html=True)
 
 
-st.markdown("<h1 style='text-align: center; color:lightblue;'>📦 File Compressor / Decompressor</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color:lightblue;'><img src='icon_2.png' width='60'> File Compressor / Decompressor</h1>", unsafe_allow_html=True)
+
 st.markdown("<hr style='height:2px;border:none;color:gray;background-color:gray;' />", unsafe_allow_html=True)
 
 
